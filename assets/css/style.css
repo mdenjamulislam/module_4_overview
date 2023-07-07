@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: cursive;
+    font-size: 16px;
+    color: #333;
+    padding: 0;
+}
+
+main, .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*-------- Strt Hero Area --------*/
+
+.hero {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1.title {
+    font-size: 49px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero h1.title > span.text-light {
+    color: #ED7161;
+}
+
+.hero p.description {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.hero figure img { 
+    width: 64px;
+    height: auto;
+}
+
+
+/*--------- Start Topic Area -----------*/
+
+.topics {
+    text-align: center;
+    padding: 30px 0 50px;
+    overflow: hidden;
+}
+
+h2.section-title {
+    font-size: 31px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.topics .topic-item {
+    width: 22%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.topics .topic-item > .item-box {
+    padding: 30px 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.topics .topic-item > .item-box h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.topics .topic-item > .item-box p {
+    margin-bottom: 30px;
+}
+
+.topics .topic-item > .item-box a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 14px;
+    background-color: #ED7161;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.topics .topic-item > .item-box a:hover {
+    background-color: transparent;
+    border: 1px solid #ED7161;
+    color: #ED7161;
+}
+
+
+/*-------------- Start Footer Area ---------------*/
+
+.footer {
+    padding: 30px 0;
+    color: #ddd;
+    background-color: #333;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cont a {
+    color: #ED7161;
+    text-decoration: none;
+}

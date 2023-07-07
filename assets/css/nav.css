@@ -1,0 +1,42 @@
+header {
+    padding-top: 30px;
+}
+
+nav  {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+nav > ul > li {
+    padding: 0 20px;
+    border-right: 1px solid #333;
+}
+
+nav > ul > li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #273746;
+    transition: .2s ease;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+nav ul li a:active,
+nav ul li a:focus {
+    color: #21618C;
+}
